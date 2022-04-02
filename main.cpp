@@ -11,7 +11,7 @@ int main() {
         for ( i = 0 ; i < n ; i++ ){
             c = a + b;
             b=a;
-            c=b;
+            a=c;
             cout << c << endl;
         }
     }else {
